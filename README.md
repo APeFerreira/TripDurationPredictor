@@ -1,5 +1,14 @@
 # Trip Duration Predictor
 
+## Setting Up the Conda Environment
+
+### Creating a New Conda Environment from `environment.yml`
+To create a new Conda environment from the provided `environment.yml` file, run:
+
+```sh
+conda env create -f environment.yml
+```	
+
 ## Overview
 This project aims to predict the travel duration (in seconds) for ride-sharing trips based on ride start/end geospatial coordinates (WGS84) and the departure datetime. The model is evaluated using the Root Mean Squared Error (RMSE) metric.
 
